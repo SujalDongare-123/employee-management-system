@@ -1,0 +1,78 @@
+/* ====== Global ====== */
+body {
+    background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+    background: #1e293b;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/* ====== Card ====== */
+.card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* ====== Title ====== */
+.title {
+    font-weight: bold;
+    color: #1e293b;
+}
+
+/* ====== Buttons ====== */
+.btn-primary {
+    background: #2563eb;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-warning {
+    background: #f59e0b;
+    border: none;
+    color: #000;
+}
+
+.btn-danger {
+    background: #ef4444;
+    border: none;
+}
+
+/* ====== Table ====== */
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.custom-table thead {
+    background: #1e293b;
+    color: white;
+}
+
+.custom-table tbody tr:hover {
+    background: #f1f5f9;
+    transition: 0.3s;
+}
+
+/* ====== Form ====== */
+.form-control {
+    border-radius: 10px;
+}
+
+/* ====== Alert ====== */
+.alert {
+    border-radius: 12px;
+    font-size: 18px;
+}
